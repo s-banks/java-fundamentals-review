@@ -80,4 +80,4 @@
 
 ## Testing your Code
 
-You can (and are encouraged to) use the `main` method in the **TestYourMethods** to test the code that you have written.
+You can (and are encouraged to) use the `main` method in the **TestYourMethods** class to test the code that you have written.
