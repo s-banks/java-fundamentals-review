@@ -1,7 +1,7 @@
 # Java Fundamentals Assessment Review
 
-## Explore the structure of the `src` directory
-## All your classes will live within the `java` directory inside `main` which is inside `src`
+- Explore the structure of the `src` directory
+- All your classes will live within the `java` directory 
 
 ## Problems
 
