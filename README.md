@@ -75,7 +75,7 @@
    Hints
 
     - Check to make sure that each **Cat**'s `color` property is capitalized
-    - If they are not, use the setter to capitalize the `color` property.
+    - If they are not, **_USE THE SETTER_** to capitalize the `color` property.
     
 
 ## Testing your Code
