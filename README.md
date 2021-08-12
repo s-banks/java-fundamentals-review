@@ -41,7 +41,7 @@
     - Add a protected instance property named `color` that is a String. This
       property represents the color of each instance of **Cat**.
     - Write the constructor on **Cat** that defines 4 parameters: the age
-      of the cat, a boolean indicating whether the cat is a herbivore, what the cat's name is, and the color of the cat. The corresponding properties of the object
+      of the cat, a boolean indicating whether the cat is a rescue, what the cat's name is, and the color of the cat. The corresponding properties of the object
       should be set based on the arguments passed to the constructor.
      (Hint: use of the super constructor may be useful here)
     - Write a getter and setter on the **Cat** class for the `color` property.
@@ -53,7 +53,7 @@
    - Add a protected instance property named `breed` that is a String. This
      property represents the breed of each instance of **Dog**.
    - Write the constructor on **Dog** that defines 4 parameters: the age
-     of the dog, a boolean indicating whether the dog is a herbivore, what the dog's name is, and the breed of the dog. The corresponding properties of the object
+     of the dog, a boolean indicating whether the dog is a rescue, what the dog's name is, and the breed of the dog. The corresponding properties of the object
      should be set based on the arguments passed to the constructor.
      (Hint: use of the super constructor may be useful here)
    - Write a getter and setter on the **Dog** class for the `breed` property.
