@@ -23,7 +23,7 @@
 
 
 
-2. Create a class named **Pet** inside of `src`.
+2. Create a class named **Pet** inside of `java`.
 
     - The class should define three instance properties. One of type `int` named
       `age`, one of type `boolean` named `isRescue`, and one of type `String` named `name`. These properties should not be accessible
@@ -36,7 +36,7 @@
 
 
 
-3. Create a class named **Cat** that inherits from **Pet**.
+3. Create a class named **Cat** inside of `java` that inherits from **Pet**.
 
     - Add a protected instance property named `color` that is a String. This
       property represents the color of each instance of **Cat**.
@@ -48,7 +48,7 @@
 
 
 
-4. Create a class named **Dog** that also inherits from **Pet**.
+4. Create a class named **Dog** inside of `java` that also inherits from **Pet**.
 
    - Add a protected instance property named `breed` that is a String. This
      property represents the breed of each instance of **Dog**.
@@ -60,7 +60,7 @@
 
 
 
-5. Create an interface named **Meowable**.
+5. Create an interface named **Meowable** inside of `java`.
 
     - The **Meowable** interface should specify an instance method named `meow`
       that accepts no arguments and is void.
@@ -72,7 +72,7 @@
 
 
 
-6. Create an interface named **Barkable**.
+6. Create an interface named **Barkable** inside of `java`.
 
    - The **Barkable** interface should specify an instance method named `bark`
      that accepts no arguments and is void.
