@@ -3,7 +3,10 @@
 - Explore the structure of the `src` directory
 - All your classes will live within the `java` directory 
 
+## SEE BOTTOM OF README FOR INSTRUCTIONS ON TESTING YOUR CODE
+
 ## Problems
+
 
 1. In the **AssessmentReview** class inside the `java` directory.
 
