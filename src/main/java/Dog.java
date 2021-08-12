@@ -2,7 +2,7 @@ public class Dog extends Pet implements Barkable{
 
     private String breed;
 
-    public Dog(int age, boolean isRescue, String name, String breed) throws IllegalArgumentException {
+    public Dog(int age, boolean isRescue, String name, String breed) {
         super(age, isRescue, name);
         this.breed = breed;
     }

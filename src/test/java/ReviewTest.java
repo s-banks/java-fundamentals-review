@@ -24,6 +24,11 @@ public class ReviewTest {
 
     }
 
+    @Test(expected = IllegalArgumentException.class)
+    public void testPetObject() {
+
+    }
+
 
 
 
