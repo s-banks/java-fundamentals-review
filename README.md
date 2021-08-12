@@ -18,38 +18,70 @@
       - (Hint: the sort method on the Arrays class may be very helpful here)
       - (Hint: make sure the median of `[1, 3, 4, 2, 6, 5, 8, 7]` is `4.5`)
 
-1. Create a class named **Animal** inside of `src`.
 
-    - The class should define two instance properties. One of type `int` named
-      `numberOfLegs`, and one of type `boolean` named `isVegetarian`. These properties should not be accessible
-      outside the **Animal** class.
-    - Add a constructor method that takes in two parameters of the types above and sets `numberOfLegs`
-      and `isVegetarian` properties based on the passed arguments.
-    - If either of the passed `numberOfLegs` or `isVegetarian` arguments are `null`,
+
+2. Create a class named **Pet** inside of `src`.
+
+    - The class should define three instance properties. One of type `int` named
+      `age`, one of type `boolean` named `isRescue`, and one of type `String` named `name`. These properties should not be accessible
+      outside the **Pet** class.
+    - Add a constructor method that takes in three parameters of the types above and sets `age`
+      ,`isRescue`, and `name` properties based on the passed arguments.
+    - If the passed `name` argument is `null`,
       the constructor should throw an `IllegalArgumentException`.
-    - Write a getter and setter for the `numberOfLegs` property as well as a getter and setter for `isVegetarian`.
+    - Write a getter and setter for all three properties.
 
-1. Create a class named **Cat** that inherits from **Animal**.
+
+
+3. Create a class named **Cat** that inherits from **Pet**.
 
     - Add a protected instance property named `color` that is a String. This
       property represents the color of each instance of **Cat**.
-    - Write the constructor on **Cat** that defines 3 parameters: the number of legs
-      for the animal, a boolean indicating whether that animal is a vegetarian, and the color of the cat. The corresponding properties of the object
+    - Write the constructor on **Cat** that defines 4 parameters: the age
+      of the cat, a boolean indicating whether the cat is a herbivore, what the cat's name is, and the color of the cat. The corresponding properties of the object
       should be set based on the arguments passed to the constructor.
      (Hint: use of the super constructor may be useful here)
     - Write a getter and setter on the **Cat** class for the `color` property.
 
-1. Create an interface named **Meowable**.
 
-    - The Meowable interface should specify an instance method named `meow`
+
+4. Create a class named **Dog** that also inherits from **Pet**.
+
+   - Add a protected instance property named `breed` that is a String. This
+     property represents the breed of each instance of **Dog**.
+   - Write the constructor on **Dog** that defines 4 parameters: the age
+     of the dog, a boolean indicating whether the dog is a herbivore, what the dog's name is, and the breed of the dog. The corresponding properties of the object
+     should be set based on the arguments passed to the constructor.
+     (Hint: use of the super constructor may be useful here)
+   - Write a getter and setter on the **Dog** class for the `breed` property.
+
+
+
+5. Create an interface named **Meowable**.
+
+    - The **Meowable** interface should specify an instance method named `meow`
       that accepts no arguments and is void.
     - Change your **Cat** class so that it implements the **Meowable** interface.
     - The implementation of the `meow` method on Cat class should print the following message:
       ```
       This is a meow!
       ```
-    
-1. On your **AssessmentReview** class create a static method named `capitalizeCatColor`.
+
+
+
+6. Create an interface named **Barkable**.
+
+   - The **Barkable** interface should specify an instance method named `bark`
+     that accepts no arguments and is void.
+   - Change your **Dog** class so that it implements the **Barkable** interface.
+   - The implementation of the `bark` method on the **Dog** class should print the following message:
+     ```
+     Bork bork!
+     ```
+ 
+
+   
+7. On your **AssessmentReview** class create a static method named `capitalizeCatColor`.
 
    This method should:
 
@@ -80,4 +112,6 @@
 
 ## Testing your Code
 
-You can (and are encouraged to) use the `main` method in the **TestYourMethods** class to test the code that you have written.
+You can (and are encouraged to) use the classes in the **test-methods** package to test the code that you have written.
+You will need to uncomment the code in the main method of each class and run it. Make sure the output matches the example output in comments.
+**DO NOT UNCOMMENT THE OUTPUT PORTION** 
