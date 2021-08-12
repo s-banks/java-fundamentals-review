@@ -18,6 +18,7 @@ public class TestCapitalizeCatColorMethod {
 //
 //        cats.forEach(cat -> System.out.println(cat.getColor()));
 
+        // DONT UNCOMMENT THIS
         // OUTPUT:
         // BLACK
         // WHITE

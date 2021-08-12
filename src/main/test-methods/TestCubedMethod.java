@@ -6,6 +6,8 @@ public class TestCubedMethod {
 //        System.out.println(125 != AssessmentReview.cubed(5));
 //        System.out.println(15625 == AssessmentReview.cubed(25));
 
+
+        // DONT UNCOMMENT THIS
         // OUTPUT:
         // true
         // false
