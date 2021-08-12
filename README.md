@@ -11,12 +11,12 @@
 1. In the **AssessmentReview** class inside the `java` directory.
 
     - Write a public static method named `cubed` that accepts an integer as
-      input and returns that number to the third power.
+      an argument and returns that integer to the third power.
     - Write a public static method named `difference` that accepts two arguments and
-      that works with both integers and doubles (use method overloading) and
-      returns the result of subtracting the two passed numbers.
-    - Write a public static method named `median` that takes in an array of
-      `int` numbers (not a `List`, an array) and returns the median as a `double`.
+      that works with both integers and doubles (use method overloading). Both variations of the method 
+      should return the result of subtracting the second argument from the first argument.
+    - Write a public static method named `median` that receives an array of
+      `int`s (please use an array, not a `Collection`) and returns the median as a `double`.
       - (Hint: there are examples of how to find median of an array in Java all over the internet)
       - (Hint: the sort method on the Arrays class may be very helpful here)
       - (Hint: make sure the median of `[1, 3, 4, 2, 6, 5, 8, 7]` is `4.5`)
