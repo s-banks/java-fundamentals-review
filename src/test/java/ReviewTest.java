@@ -1,5 +1,7 @@
 import org.junit.Test;
 import static org.junit.Assert.*;
+import static org.hamcrest.CoreMatchers.instanceOf;
+import static org.junit.Assert.*;
 
 public class ReviewTest {
 
@@ -26,6 +28,32 @@ public class ReviewTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void testPetObject() {
+        Pet testPet = new Pet(10, true, "Testy");
+
+        assertEquals(10, testPet.getAge());
+        assertTrue(testPet.isRescue());
+        assertEquals("Testy", testPet.getName());
+
+        testPet.setAge(5);
+        testPet.setRescue(false);
+        testPet.setName("Nesty");
+
+        assertEquals(5, testPet.getAge());
+        assertFalse(testPet.isRescue());
+        assertEquals("Nesty", testPet.getName());
+
+        Pet missingName = new Pet(7, true, null);
+        missingName.getName();
+
+    }
+
+    @Test
+    public void testCatObject() {
+
+        Cat testCat = new Cat(3, true, "Kitty", "green");
+
+        assertThat(testCat, instanceOf(Pet.class));
+
 
     }
 
