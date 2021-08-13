@@ -27,7 +27,7 @@ public class AssessmentReview {
         return median;
     }
 
-    public static ArrayList<Cat> capitalizeCatColor(ArrayList<Cat> cats) {
+    public static ArrayList<Cat> uppercaseCatColor(ArrayList<Cat> cats) {
         ArrayList<Cat> catOutput = new ArrayList<>();
 
         for (Cat cat : cats) {
