@@ -90,7 +90,7 @@
 
     - Receive an `ArrayList` of **Cat** objects as a parameter.
     - The method should return an `ArrayList` of **Cat** objects, where each cat
-      object's `color` property is capitalized.
+      object's `color` field is capitalized.
 
    Sample Input
 
@@ -109,8 +109,8 @@
 
    Hints
 
-    - Check to make sure that each **Cat**'s `color` property is capitalized
-    - If they are not, **_USE THE SETTER_** to capitalize the `color` property.
+    - Check to make sure that each **Cat**'s `color` field is capitalized
+    - If the `color` field is not capitalized, **_USE THE SETTER_** to capitalize the `color` field.
     
 
 ## Testing your Code
