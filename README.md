@@ -32,7 +32,7 @@
       ,`isRescue`, and `name` properties based on the respective parameters.
     - If the passed `name` argument is `null`,
       the constructor should throw an `IllegalArgumentException`.
-    - Write getters and settes for all three fields.
+    - Write getters and setters for all three fields.
 
 
 
