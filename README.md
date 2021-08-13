@@ -84,33 +84,33 @@
  
 
    
-7. On your **AssessmentReview** class create a static method named `capitalizeCatColor`.
+7. On your **AssessmentReview** class create a static method named `uppercaseCatColor`.
 
    This method should:
 
     - Receive an `ArrayList` of **Cat** objects as a parameter.
     - The method should return an `ArrayList` of **Cat** objects, where each cat
-      object's `color` field is capitalized.
+      object's `color` field is in uppercase.
 
    Sample Input
 
      ```
-     black
-     orange
-     white    
+     a Cat object with a color of "black"
+     a Cat object with a color of "orange"
+     a Cat object with a color of "white"    
      ```
    Sample Output
 
     ```
-    BLACK
-    ORANGE
-    WHITE
+    a Cat object with a color of "BLACK"
+    a Cat object with a color of "ORANGE"
+    a Cat object with a color of "WHITE"  
     ```
 
    Hints
 
-    - Check to make sure that each **Cat**'s `color` field is capitalized
-    - If the `color` field is not capitalized, **_USE THE SETTER_** to capitalize the `color` field.
+    - Check to make sure that each **Cat**'s `color` field is already uppercase
+    - If the `color` field is not already uppercase, **_USE THE SETTER_** to change the `color` field to uppercase.
     
 
 ## Testing your Code
