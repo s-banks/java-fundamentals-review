@@ -89,7 +89,7 @@
    This method should:
 
     - Receive an `ArrayList` of **Cat** objects as a parameter.
-    - The method should return an `ArrayList` of **Cat** objects, where each cat
+    - The method should return an `ArrayList` of **Cat** objects, where each **Cat**
       object's `color` field is in uppercase.
 
    Sample Input
