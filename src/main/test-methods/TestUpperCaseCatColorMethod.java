@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class TestCapitalizeCatColorMethod {
+public class TestUpperCaseCatColorMethod {
 
     public static void main(String[] args) {
 
@@ -14,7 +14,7 @@ public class TestCapitalizeCatColorMethod {
 //        cats.add(whiteCat);
 //        cats.add(orangeCat);
 //
-//        cats = AssessmentReview.capitalizeCatColor(cats);
+//        cats = AssessmentReview.uppercaseCatColor(cats);
 //
 //        cats.forEach(cat -> System.out.println(cat.getColor()));
 
