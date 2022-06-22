@@ -1,8 +1,9 @@
 # Java Fundamentals Assessment Review
-
+## 1. Fork this repository to your personal Github Account.
+- Make sure your `src` directory is marked as `Sources Root`.
+  1. Right click on the `src` directory > `Mark Directory As` > `Sources Root` 
 - Explore the structure of the `src` directory
 - All your classes will live within the `java` directory 
-
 ## SEE BOTTOM OF README FOR INSTRUCTIONS ON TESTING YOUR CODE
 
 ## Problems
