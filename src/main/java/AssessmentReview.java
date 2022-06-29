@@ -24,7 +24,7 @@ public class AssessmentReview {
 		if (arr.length % 2 == 0)
 			median = ((double)arr[arr.length/2] + (double)arr[arr.length/2 - 1])/2;
 		else
-			median = (double) arr[arr.length/2];
+			median = arr[arr.length/2];
 		return median;
 	}
 
